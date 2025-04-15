@@ -1,4 +1,4 @@
-import { Table, Button, Popconfirm, message } from "antd";
+import { Table, Button, Popconfirm} from "antd";
 import { useBanners, useDeleteBanner } from "../../hook/banner";
 import { Link } from "react-router-dom";
 

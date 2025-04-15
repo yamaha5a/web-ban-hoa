@@ -1,10 +1,10 @@
-import { useState } from "react";
 import { Button, Form, Input, Upload, message } from "antd";
 import { useCreateBanner } from "../../hook/banner";
 import { UploadOutlined } from "@ant-design/icons";
 
+
 const AddBanner = () => {
-  const { mutate: createBanner, isLoading } = useCreateBanner();
+  const { mutate: createBanner } = useCreateBanner();
   const [form] = Form.useForm();
 
   const handleSubmit = async (values: any) => {
@@ -60,7 +60,7 @@ const AddBanner = () => {
           </Upload>
         </Form.Item>
 
-        <Button type="primary" htmlType="submit" loading={isLoading}>
+        <Button type="primary" htmlType="submit" >
           Thêm Banner
         </Button>
       </Form>

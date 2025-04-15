@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Layout, Menu, Dropdown, Avatar, Badge, Input, Typography } from "antd";
 import { SearchOutlined, ClockCircleOutlined, BellOutlined, MailOutlined, HomeOutlined, LogoutOutlined, UserOutlined } from "@ant-design/icons";
 
